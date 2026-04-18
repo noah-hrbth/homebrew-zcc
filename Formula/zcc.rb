@@ -6,12 +6,12 @@ class Zcc < Formula
 
   on_arm do
     url "https://github.com/noah-hrbth/zed-claude-code/releases/download/v#{version}/zcc-#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "REPLACE_WITH_ARM64_SHA256"
+    sha256 "02718d4230cc1527058f869f9a7363f8b840ddfa5cb3225dbda4fd54e1c6ae30"
   end
 
   on_intel do
     url "https://github.com/noah-hrbth/zed-claude-code/releases/download/v#{version}/zcc-#{version}-x86_64-apple-darwin.tar.gz"
-    sha256 "REPLACE_WITH_X86_64_SHA256"
+    sha256 "c7210ee818d4a4450e96a1605fe2ef2e88308a45be77d5eccff8c5b12718af3e"
   end
 
   def install
