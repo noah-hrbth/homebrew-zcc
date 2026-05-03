@@ -1,17 +1,17 @@
 class Zcc < Formula
   desc "Zed <-> Claude Code integration: send editor selection to Claude Code via /ide"
   homepage "https://github.com/noah-hrbth/zed-claude-code"
-  version "0.2.0"
+  version "0.2.2"
   license "MIT"
 
   on_arm do
-    url "https://github.com/noah-hrbth/zed-claude-code/releases/download/v0.2.0/zcc-0.2.0-aarch64-apple-darwin.tar.gz"
-    sha256 "0362590e476ee9e00eeff74bd3801cb9b82d6e8cb072eb5d28fb1a8227213795"
+    url "https://github.com/noah-hrbth/zed-claude-code/releases/download/v0.2.2/zcc-0.2.2-aarch64-apple-darwin.tar.gz"
+    sha256 "7f7dae8705696d4b73c37e21a3e00f2cbe1af9ad12bc71c3afb7c797ab2de407"
   end
 
   on_intel do
-    url "https://github.com/noah-hrbth/zed-claude-code/releases/download/v0.2.0/zcc-0.2.0-x86_64-apple-darwin.tar.gz"
-    sha256 "725bb0fada08532d0e07b6aa9fafa2b60cd2c86e56f440866c474fe90b4ec615"
+    url "https://github.com/noah-hrbth/zed-claude-code/releases/download/v0.2.2/zcc-0.2.2-x86_64-apple-darwin.tar.gz"
+    sha256 "f476f0be227561401fcd97e28d060a830feed7a4f2f357311183a3f380d5fbbd"
   end
 
   def install
